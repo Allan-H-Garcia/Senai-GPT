@@ -1,0 +1,41 @@
+.btn {
+    color: white;
+    background-color: black;
+}
+
+.painel-lateral-topo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    background-size: cover;
+    width: 242px;
+}
+
+.painel-lateral-bot {
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    background-size: cover;
+    width: 242px;
+}
+
+.chat-help {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+}
+
+
+.pesquisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    
+
+}
