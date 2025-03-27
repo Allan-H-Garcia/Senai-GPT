@@ -1,41 +1,74 @@
 .btn {
     color: white;
     background-color: black;
+    border-radius: 7px;
+}
+
+.tela{
+
+    display: flex;
+}
+
+.painel-lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    /* background-color: rgb(255, 4, 4); */
+    width: 200px;
+    height: 75vh;
+    /* justify-content: center; */
+    align-items: center;
+    border-right: 2px solid black;
+   
+    
 }
 
 .painel-lateral-topo {
-
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: left;
-    background-size: cover;
-    width: 242px;
+    gap: 5px;
+    justify-content: center;
+    /* align-items: center; */
+    width: 150px;
+    
 }
 
 .painel-lateral-bot {
-
+    gap: 5px;
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: left;
+    justify-content: center;
     background-size: cover;
-    width: 242px;
+    width: 150px;
+    border-top: 2px solid rgba(0, 0, 0, 0.135);
+    margin-top: 100px;
 }
 
 .chat-help {
     background-color: white;
     border: none;
     text-decoration: none;
+    text-align: left;
 }
 
-
-.pesquisa{
+.tutorial{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-size: cover;
-    
 
+}
+
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    /* padding: 25px; */
+    /* background-color: brown; */
+}
+
+.search{
+    width: 75vw;
+    height: 50px;
 }
